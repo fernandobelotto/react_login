@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 import {
   ChakraProvider,
   Box,
@@ -10,14 +10,14 @@ import {
   theme,
   useColorModeValue,
   Flex,
-} from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
-import { Outlet } from "react-router-dom"
+} from "@chakra-ui/react";
+import { ColorModeSwitcher } from "./ColorModeSwitcher";
+import { Logo } from "./Logo";
+import { Outlet } from "react-router-dom";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <ColorModeSwitcher justifySelf="flex-end" />
     <Outlet />
   </ChakraProvider>
-)
+);
