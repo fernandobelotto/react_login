@@ -3,12 +3,13 @@ import * as React from "react"
 import ReactDOM from "react-dom"
 import { App } from "./App"
 import reportWebVitals from "./reportWebVitals"
+import Index from "./routes"
 import * as serviceWorker from "./serviceWorker"
 
 ReactDOM.render(
   <React.StrictMode>
     <ColorModeScript />
-    <App />
+    <Index />
   </React.StrictMode>,
   document.getElementById("root"),
 )
