@@ -15,6 +15,10 @@ React project with full authentication flow
 9. Data fetchin with Redux-toolkit RTQ
 10. End-to-end testing with Cypress
 11. Components with storybook
+12. Prettier enabled
+13. Eslint configured
+14. Animations with framer motion
+
 
 ## How to run the project
 
