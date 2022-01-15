@@ -1,10 +1,19 @@
 import {
-  Box, Button, Checkbox, Flex, FormControl, FormErrorMessage, FormLabel, Heading, Input, Stack, Text,
-  useColorModeValue
+  Box,
+  Button,
+  Checkbox,
+  Flex,
+  FormControl,
+  FormErrorMessage,
+  FormLabel,
+  Heading,
+  Input,
+  Stack,
+  Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { Field, Form, Formik } from "formik";
 import { Link as RouterLink } from "react-router-dom";
-
 
 export default function LoginScreen() {
   function handleSubmit(values: any, { setSubmitting }: any) {
@@ -14,8 +23,6 @@ export default function LoginScreen() {
 
   return (
     <>
-
-
       <Flex
         minH={"100vh"}
         align={"center"}
@@ -47,9 +54,7 @@ export default function LoginScreen() {
                       <Field name="email">
                         {({ field, form }: any) => (
                           <FormControl
-                            isInvalid={
-                              form.errors.email && form.touched.email
-                            }
+                            isInvalid={form.errors.email && form.touched.email}
                           >
                             <FormLabel htmlFor="email">Email</FormLabel>
                             <Input
@@ -118,9 +123,7 @@ export default function LoginScreen() {
             </Stack>
           </Box>
         </Stack>
-
       </Flex>
-
     </>
   );
 }

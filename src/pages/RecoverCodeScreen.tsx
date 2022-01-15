@@ -6,7 +6,7 @@ import {
   Heading,
   Input,
   Stack,
-  useColorModeValue
+  useColorModeValue,
 } from "@chakra-ui/react";
 import React, { ReactElement } from "react";
 

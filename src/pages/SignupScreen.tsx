@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import {
-  Box, Button, Flex, FormControl,
-  FormLabel, Heading, Input,
-  InputGroup, InputRightElement,
-  Stack, Text,
-  useColorModeValue
+  Box,
+  Button,
+  Flex,
+  FormControl,
+  FormLabel,
+  Heading,
+  Input,
+  InputGroup,
+  InputRightElement,
+  Stack,
+  Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
