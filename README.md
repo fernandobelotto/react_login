@@ -19,7 +19,6 @@ React project with full authentication flow
 13. Eslint configured
 14. Animations with framer motion
 
-
 ## How to run the project
 
 After clone the repo, install the dependencies with:

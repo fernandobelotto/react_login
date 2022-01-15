@@ -1,22 +1,14 @@
+import React from 'react'
+import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import {
-  Flex,
-  Box,
-  FormControl,
-  FormLabel,
-  Input,
-  InputGroup,
-  HStack,
-  InputRightElement,
-  Stack,
-  Button,
-  Heading,
-  Text,
-  useColorModeValue,
+  Box, Button, Flex, FormControl,
+  FormLabel, Heading, Input,
+  InputGroup, InputRightElement,
+  Stack, Text,
+  useColorModeValue
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { ArrowBackIcon, ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 export default function SignupScreen() {
   const [showPassword, setShowPassword] = useState(false);
@@ -28,9 +20,6 @@ export default function SignupScreen() {
       justify={"center"}
       bg={useColorModeValue("gray.50", "gray.800")}
     >
-
-
-
       <Stack spacing={8} mx={"auto"} maxW={"xl"} py={12} px={6}>
         <Stack align={"center"}>
           <Heading fontSize={"4xl"} textAlign={"center"}>
@@ -88,7 +77,6 @@ export default function SignupScreen() {
           </Stack>
         </Box>
       </Stack>
-
     </Flex>
   );
 }

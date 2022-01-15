@@ -1,26 +1,15 @@
-import * as React from "react";
 import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-  useColorModeValue,
-  Flex,
+  ChakraProvider, theme
 } from "@chakra-ui/react";
-import { ColorModeSwitcher } from "./ColorModeSwitcher";
-import { Logo } from "./Logo";
+import * as React from "react";
 import { Outlet } from "react-router-dom";
-import { motion } from "framer-motion";
+import { ColorModeSwitcher } from "./ColorModeSwitcher";
+
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <ColorModeSwitcher justifySelf="flex-end" />
 
     <Outlet />
-
   </ChakraProvider>
 );

@@ -1,4 +1,3 @@
-import React, { ReactElement } from "react";
 import {
   Button,
   Flex,
@@ -7,11 +6,11 @@ import {
   Heading,
   Input,
   Stack,
-  useColorModeValue,
+  useColorModeValue
 } from "@chakra-ui/react";
-interface Props {}
+import React, { ReactElement } from "react";
 
-export default function RecoverCodeScreen({}: Props): ReactElement {
+export default function RecoverCodeScreen(): ReactElement {
   return (
     <>
       <Flex

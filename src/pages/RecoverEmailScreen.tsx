@@ -1,16 +1,12 @@
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import {
-  Button,
-  FormControl,
-  Flex,
-  Heading,
+  Box, Button, Flex, FormControl, Heading,
   Input,
   Stack,
   Text,
-  useColorModeValue,
-  IconButton,
-  Box,
+  useColorModeValue
 } from "@chakra-ui/react";
+import React from 'react';
 import { Link } from "react-router-dom";
 
 export default function RecoverEmailScreen(): JSX.Element {

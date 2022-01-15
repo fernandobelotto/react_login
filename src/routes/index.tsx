@@ -1,6 +1,5 @@
-import React, { ReactElement } from "react";
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ReactElement } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { App } from "../App";
 import HomeScreen from "../pages/HomeScreen";
 import LoginScreen from "../pages/LoginScreen";
@@ -8,9 +7,7 @@ import RecoverCodeScreen from "../pages/RecoverCodeScreen";
 import RecoverEmailScreen from "../pages/RecoverEmailScreen";
 import SignupScreen from "../pages/SignupScreen";
 
-interface Props {}
-
-export default function Index({}: Props): ReactElement {
+export default function Index(): ReactElement {
   return (
     <>
       <BrowserRouter>
