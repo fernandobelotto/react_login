@@ -18,6 +18,8 @@ React project with full authentication flow
 12. Prettier enabled
 13. Eslint configured
 14. Animations with framer motion
+15. A11y audit with react-axe
+16. Code analysis with sonarQube
 
 ## How to run the project
 

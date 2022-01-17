@@ -10,7 +10,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 export default function RecoverEmailScreen(): JSX.Element {
@@ -57,15 +57,20 @@ export default function RecoverEmailScreen(): JSX.Element {
             />
           </FormControl>
           <Stack spacing={6}>
-            <Button
-              bg={"blue.400"}
-              color={"white"}
-              _hover={{
-                bg: "blue.500",
-              }}
-            >
-              Request Reset
-            </Button>
+            <Link to='/recover-password'>
+
+              <Button
+                bg={"blue.400"}
+                color={"white"}
+                _hover={{
+                  bg: "blue.500",
+                }}
+              >
+
+                Request Reset
+              </Button>
+            </Link>
+
           </Stack>
         </Stack>
       </Flex>

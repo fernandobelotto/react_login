@@ -10,7 +10,9 @@
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:storybook/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:sonarjs/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -20,7 +22,7 @@
     "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "jsx-a11y"],
+  "plugins": ["react", "@typescript-eslint", "jsx-a11y", "sonarjs"],
   "rules": {
     "react/react-in-jsx-scope": "off"
   }
